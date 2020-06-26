@@ -1,3 +1,123 @@
-body{
-	background-color: transparent;
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,800&display=swap');
+</style>
+
+body, html{
+font-family:'Open Sans', sans-serif;
+padding: 0;
+margin: 0;
 }
+
+h1{
+	font-weight: 800;
+	font-size: 50px;
+}
+
+h3{
+font-weight: bold;
+font-size: 30px;
+}
+
+h4{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.hero-banner{
+	background-color: #007FFF;
+	min-height: 100vh;
+	padding: 50px 20px;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+
+
+}
+
+.hero-banner h4,
+.hero-banner a{
+	color: white;
+	margin: 14px 0 20px;
+}
+
+.hero-banner h1{
+color: white;
+}
+
+.hero-banner h3{
+color: white;
+margin: 0 0 35px;
+}
+
+.character1{
+background: url(img/character.jpg) no-repeat 0 0;
+background-size: 100% 
+width: 363px;
+height: 344px;
+position: absolute; top: 10%; right: 10%;
+transform: rotate(15deg);
+}
+
+.character2{
+background: url(img/character.jpg) no-repeat 0 0;
+background-size: 100% 
+width: 309px;
+height: 344px;
+position: absolute; top: 213px; right: 277px;
+}
+
+.character3{
+background: url(img/character.jpg) no-repeat 0 0;
+background-size: 100% 
+width: 297px;
+height: 286px;
+position:absolute; bottom: 74px; right: 109px;
+}
+
+a.cta.alt,
+button.cta.alt{
+	font-size: 10px;
+	font-weight: bold;
+	color: white;
+	background:#007FFF;
+	display: inline-block;
+	box-shadow: 0 0 0 2px rgba(0,127,255,.15)
+	padding: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+
+}
+
+button.cta{
+font-size: 10px;
+	font-weight: bold;
+	color: white;
+	background:#007FFF;
+	display: inline-block;
+	border: 10px solid rgba(0,0,0,.15);
+	padding: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+a.cta.alt
+button.cta.alt{
+background-color: #007FFF;
+color:#111111;
+box-shadow: 0 0 0 10px rgba(0, 0, 0, .15)
+}
+/*<div class="hero-banner">	
+	<div class="wrapper">
+	<h4>V From <a href="https://taptapkaboom.com" target=_blank>Tap Tap Kaboom</a> Presents</h4>
+	<h1>The Silliest &amp;<br/>
+		Most Awesome Gang<br/>
+		In The World!</h1>
+		<h3>It's the Circle Guy, Hat Guy &amp; Red Guy.<br/> 
+		They're the best of friends.</h3>
+</div>*/
