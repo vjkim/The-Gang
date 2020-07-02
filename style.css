@@ -175,13 +175,22 @@ nav ul li a{
 
 .more-info{
 	text-align: center;
-
 }
 
+.more-info p{
+	margin-: 18px 0 40px;
+}
 .more-info h2{
-
+	margin:50px 0;
 }
-
+.highlight{
+	background-color: #FFADF9;
+	color: #ff3300;
+	padding: 5px 10px;
+	line-height: 50px;
+	display: inline; 
+	font-weight: 800;
+}
 /* 
 <div class="more-info" id="more-info">
 	<h2>Join Our Fan Club</h2>
