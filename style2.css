@@ -36,6 +36,7 @@ p{
 .wrapper{
 	width: 960px;
 	margin: 0 auto;
+
 }
 
 
@@ -169,21 +170,22 @@ nav ul li a{
 }
 
 
+.highlight{
+	 background-color: #FFADF9;
+	 color: #FF3300;
+	 padding: 5px 10px;
+	 line-height: 50px;
+	 display: inline;
 
+}
 
+.more-info p{
+	margin-top: 18px 35px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.more-info h2{
+		margin-top: 50px;
+}
 
 /* 	
 	
